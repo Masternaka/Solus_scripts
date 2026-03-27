@@ -34,11 +34,97 @@ fi
 
 # 2. Liste dynamique des logiciels (facilement modifiable)
 LOGICIELS=(
-  "git"
+  # === Outils Système & Surveillance ===
+  "btop"
+  "cpu-x"
+  "fastfetch"
+  "gparted"
+  "gufw"
+  "hardinfo2"
+  "inxi"
+  "lshw"
+  "samba"
+  "ufw"
+  
+  # === Utilitaires CLI & Gestion de Fichiers ===
+  "catfish"
   "curl"
+  "eza"
+  "fzf"
+  "krusader"
+  "p7zip"
+  "peazip"
+  "ranger"
+  "ripgrep"
+  "stow"
   "wget"
-  "htop"
-  "nano"
+  "yazi"
+  "zoxide"
+
+  # === Terminaux & Shell ===
+  "alacritty"
+  "fish"
+  "ghostty"
+  "kitty"
+  "ptyxis"
+  "starship"
+  "yakuake"
+
+  # === Développement & Éditeurs ===
+  "git"
+  "helix"
+  "lazygit"
+  "meld"
+  "micro"
+  "vim"
+  "vscode"
+  "zed"
+
+  # === Navigateurs & Internet ===
+  "brave"
+  "discord"
+  "opera-stable"
+  "qbittorrent"
+  "solseek"
+  "transmission"
+  "vivaldi-stable"
+
+  # === Multimédia (Audio/Vidéo) ===
+  "cava"
+  "deadbeef"
+  "easyeffects"
+  "mpv"
+  "strawberry"
+  "vlc"
+
+  # === Personnalisation & Thèmes ===
+  "conky"
+  "conky-manager"
+  "font-firacode-nerd"
+  "font-hack-ttf"
+  "font-jetbrainsmono-ttf"
+  "klassy"
+  "kvantum"
+  "papirus-icon-theme"
+
+  # === Virtualisation & ISO ===
+  "distrobox"
+  "etcher"
+  "qemu"
+  "virt-manager"
+  "virtualbox"
+
+  # === Sécurité & Bureautique ===
+  "bitwarden-desktop"
+  "keepassxc"
+  "localsend"
+
+  # === Pilotes & Matériel ===
+  "ffmpeg-chromium-vivaldi-stable"
+  "intel-media-driver"
+  "intel-microcode"
+  "openrgb"
+  
   # "un-logiciel-qui-n-existe-pas" (testez ceci pour vérifier la gestion des erreurs)
 )
 
